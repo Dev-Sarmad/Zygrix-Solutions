@@ -4,7 +4,7 @@ import hand6 from "../assets/6.png"
 function Experience() {
   return (
     <section className="mt-10 p-6">
-      <h1 className="text-4xl font-ppFormula text-white lg:text-5xl">
+      <h1 className="text-4xl font-ppFormula text-white lg:text-5xl tracking-wide">
         What <br className="md:hidden"/> <span className="text-[#6dda84] ">Working with Us</span>{" "}
         <br  className="md:hidden"/>
         Looks Like{" "}

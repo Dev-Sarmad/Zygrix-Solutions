@@ -1,4 +1,5 @@
 import ChallengesSolve from "./components/ChallengesSolve";
+import Client from "./components/Client";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Experience />
       <LoveWorking />
+      <Client />
       <Footer />
     </>
   );

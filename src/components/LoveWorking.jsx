@@ -2,7 +2,7 @@ import hand7 from "../assets/8.png";
 function LoveWorking() {
   return (
     <section className="mt-5 p-5 bg-gray-700">
-      <h1 className="text-4xl text-white font-ppFormula">
+      <h1 className="text-4xl text-white font-ppFormula tracking-wide">
         Why you will <span className="text-[#6dda84]">love working</span> with
         us
       </h1>
