@@ -3,6 +3,7 @@ import { CgClose } from "react-icons/cg";
 import { FaAngleLeft } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,10 +29,9 @@ const Header = () => {
         </div>
         {/* here  */}
         <nav className="hidden text-md md:flex md:space-x-10  md:items-center  lg:space-x-20 text-white">
-          <a href="">Services</a>
-          <a href="">Blog</a>
-          <a href="">Company</a>
-          <a href="">Work</a>
+          <Link href="">Services</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/work">Work</Link>
           <button className="p-2 rounded-md border-[#6dda84]  border-2 text-[#6dda84] font-semibold px-5">
             Talk to maker{" "}
           </button>
@@ -56,7 +56,6 @@ const Header = () => {
                   <a href="">Fast Websites @ Headless CMS</a>
                 </div>
               )}
-              
             </ul>
           </div>
         </div>
