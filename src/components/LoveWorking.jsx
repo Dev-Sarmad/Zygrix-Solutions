@@ -90,7 +90,7 @@ function LoveWorking() {
           <img
             src={hand7}
             alt=""
-            className="w-[200px] md:w-[250px] md:h-[250px] xl:w-[350px] xl:-mt-16"
+            className="w-[200px] md:w-[250px] md:h-[150px] xl:w-[350px] xl:-mt-16"
           />
         </div>
       </div>

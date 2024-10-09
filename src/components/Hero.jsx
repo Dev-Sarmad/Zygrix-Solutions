@@ -8,7 +8,7 @@ function Hero() {
       </div>
       {/* hero content */}
       <div className="hero-content flex flex-col space-y-5 space-x-0 items-center md:items-start md:space-x-5 md:space-y-0">
-        <p className="text-[#6dda84] text-sm md:text-lg md:mb-6 md:ml-4">[#1 ReactJS Web & App Agency in Berlin]</p>
+        <p className="text-[#6dda84] text-sm md:text-lg md:mb-6 md:ml-4">[#1 ReactJS Web & App Agency in Karachi]</p>
         <span className="text-6xl text-center md:text-8xl text-white font-ppFormula md:text-left">Your Vision.</span>
           <br className="hidden md:block" />
         <span  className="text-[#6dda84] uppercase text-6xl text-center md:text-8xl  font-ppFormula md:text-justify">Expert Makers.</span>

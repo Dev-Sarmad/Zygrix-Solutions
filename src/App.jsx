@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import LoveWorking from "./components/LoveWorking";
 import Services from "./components/Services";
 import WhyUs from "./components/WhyUs";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <LoveWorking />
       <Client />
+      <Contact />
       <Footer />
     </>
   );
